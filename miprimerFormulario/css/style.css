@@ -1,0 +1,51 @@
+/*mi primer css para formulario*/
+body {
+    background-color: rgb(74, 209, 236);
+}
+
+form {
+    font-family: 'Lucida Sans';
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    background-color: #999999;
+    color:rgb(15, 59, 73); 
+    font-size: 0.8em; 
+    
+
+}
+
+input, textarea {
+    border: 0;/*Quitar borde*/
+    outline: none;
+    color:rgb(94, 102, 105);
+    width: 280px;
+    font-size: larger;
+
+}
+
+.field {
+    border: solid 1px rgb(128, 141, 146);
+    padding: 10px;
+
+}
+
+.field:focus{
+    border-color:  rgb(27, 67, 148);
+}
+
+.center-content{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-green{
+    background-color: rgb(45, 210, 62);
+    color: rgb(236, 225, 225);
+    height: 40px;
+    font-family:'Arial Narrow';
+}

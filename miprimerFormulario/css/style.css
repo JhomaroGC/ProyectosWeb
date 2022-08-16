@@ -1,51 +1,62 @@
 /*mi primer css para formulario*/
 body {
-    background-color: rgb(74, 209, 236);
+  background-color: rgb(212, 220, 222);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
 }
 
 form {
-    font-family: 'Lucida Sans';
-    border-radius: 3px;
-    margin: 0 auto;
-    padding: 20px;
-    width: 300px;
-    background-color: #999999;
-    color:rgb(15, 59, 73); 
-    font-size: 0.8em; 
-    
-
+  font-family: "Lucida Sans";
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  background-color: #4b4545;
+  color: rgb(183, 222, 234);
+  font-size: 0.8em;
+  background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
+  linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
+  linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+  radial-gradient(gray 2px, transparent 0);
 }
 
-input, textarea {
-    border: 0;/*Quitar borde*/
-    outline: none;
-    color:rgb(94, 102, 105);
-    width: 280px;
-    font-size: larger;
-
+input,
+textarea {
+  border: 0;
+  /*Quitar borde*/
+  outline: none;
+  color: rgb(94, 102, 105);
+  width: 280px;
+  font-size: larger;
+  font-family: 'Lucida Sans';
 }
 
 .field {
-    border: solid 1px rgb(128, 141, 146);
-    padding: 10px;
-
+  border: solid 1px rgb(128, 141, 146);
+  padding: 10px;
 }
 
-.field:focus{
-    border-color:  rgb(27, 67, 148);
+.field:focus {
+  border-color: rgb(27, 67, 148);
 }
 
-.center-content{
-    text-align: center;
+.center-content {
+  text-align: center;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-.btn-green{
-    background-color: rgb(45, 210, 62);
-    color: rgb(236, 225, 225);
-    height: 40px;
-    font-family:'Arial Narrow';
+.btn-green {
+  background-color: rgb(220, 193, 203);
+  color: rgb(226, 19, 19);
+  height: 40px;
+  font-family: 'Lucida Sans';   
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  background-color: rgb(86, 194, 97);
+  
 }

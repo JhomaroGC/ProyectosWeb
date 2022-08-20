@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.caja {
+    background: #0e6ba8;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.position {
+    background: #5de046;
+    position: fixed;
+    left:210px;
+    top: 10px;
+}

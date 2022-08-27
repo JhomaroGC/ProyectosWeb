@@ -1,0 +1,13 @@
+Paso a Paso para Boostrap
+1. Google Boostrap 4 : https://getbootstrap.com/docs/4.3/getting-started/download/
+2. Descargamos el comprimido Boostrap CSS y JS
+3. Una vez descargado se descomprime y se copian las carpetas css y js que contiene y se llevan al proyecto.
+4. El proyecto debe contener las carpetas y además un archivo en la raiz que puede ser llamado index.html
+5. Regresamos a Boostrap e ingresamos a introducción y copiamos el Starter Template y lo pegamos en el index.html
+6. Borramos en el index.html la línea debajo del comentario Bootstrap CSS
+7. Creamos con la etiqueta link el origen a las carpetas css del proyecto creado, use este archivo: css/bootstrap.min.css
+8. Borramos en el index.html la etiqueta script correspondiente a los js.
+9. Creamos con la etiqueta script el origen a las carpetas js del proyecto creado, use este archiv0: js/bootstrap.min.js
+
+
+1. bootstrap-4.3.1.zip\bootstrap-4.3.1\site\docs\4.3\examples. Aqui están las plantillas de trabajo que pueden servir para los proyectos
